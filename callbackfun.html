@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>28.08.23</title>
+</head>
+<body>
+<h1>Callback Function</h1>
+<script>
+	function multi(d,e,div){
+		let i=d*e
+		console.log(i);
+		return  div(i)
+	}
+	function div(i){
+	if(i%2==0)
+	{
+	console.log("even number");
+	}
+	else
+	{
+	console.log("odd number")
+	}
+	}
+	function display(a,b,c){
+	let x=c(a,b,div)
+	console.log(x);
+	}
+	display(7,2,multi)
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>30.8.23</title>
+</head>
+<body>
+<h1>Set Timeout</h1>
+<script>
+	function call(){
+	console.log("Iam Timeout");  //output:after 2millisecond print iam timeout
+	}
+	setTimeout(call,2000)
+</script>
+<h1>Set Intervel</h1>
+<script>
+	function fun(){
+	console.log("Iam Interval"); //output:every 4millisecond print iam interval
+	}
+	let x=setInterval(fun,4000)
+	clearInterval(x)
+</script>
+</body>
+</html>

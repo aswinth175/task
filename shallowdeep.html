@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shallow / Deep copy</title>
+</head>
+<body>
+<h1>Shallow / Deep copy</h1>
+<script>
+	var x=8;
+	var y=x;
+	 x=-3;
+	console.log(x,y); //output:-3 8
+</script>
+<script>
+	let e={a:1,b:2}
+	let f=e;
+	 e.c=3;
+	console.log(e,f); //output:{a: 1, b: 2, c: 3} {a: 1, b: 2, c: 3}
+</script>
+</body>
+</html>

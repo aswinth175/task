@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>30.8.23</title>
+</head>
+<body>
+<h1>Json Stringify</h1>
+<script>
+	let user={
+	name:"Aswinth",
+	Age:19,
+	Study:"Fornt end developer"
+	}
+	let x=JSON.parse(JSON.stringify(user))
+	x.name="ari"
+	console.log(user,x) //output:{name: 'Aswinth', Age: 19, Study: 'Fornt end developer'}{Age: 19 Study: "Fornt end developer" name: "ari"}
+</script>
+</body>
+</html>

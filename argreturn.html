@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>30.8.23</title>
+</head>
+<body>
+<h1>With Arg With Return</h1>
+<script>
+	function add(a,b){
+	let c=a+b;
+
+	return c;    
+	}
+	let j=add(10,8)
+	console.log(j)
+	document.write(j) //output:18
+</script>
+<h1>With Arg Without Return</h1>
+<script>
+	function fun(y,z){
+	let w=y+z
+	console.log(w);	//output:14
+	document.write(w);
+	}
+	fun(6,8)
+</script>
+<h1>Without Arg With Return</h1>
+<script>
+	function call(){
+	let q=3;
+	let r=7;
+	let s=q+r;
+	return s;
+	}
+	let t=call()
+	document.write(t);
+	console.log(t); //output:10
+</script>
+<h1>Without Arg Without Return</h1>
+<script>
+	function fun1(){
+	let u=26;
+	let v=7;
+	let f=u+v;
+	console.log(f);
+	document.write(f); //output:33
+	}
+	fun1()
+</script>
+</body>
+</html>
